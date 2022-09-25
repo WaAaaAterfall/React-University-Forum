@@ -1,0 +1,179 @@
+2022-09-13 00:00:00,849 INFO 91539 [egg-logrotator] agent logger reload: got log-reload message
+2022-09-13 02:13:23,740 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 02:13:23,485 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":824,"blocks":8,"atimeMs":1663060403394.558,"mtimeMs":1663060403362.963,"ctimeMs":1663060403362.963,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T09:13:23.395Z","mtime":"2022-09-13T09:13:23.363Z","ctime":"2022-09-13T09:13:23.363Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:14:01,642 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:14:01,427 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3596,"blocks":8,"atimeMs":1663060441396.3286,"mtimeMs":1663060441363.8433,"ctimeMs":1663060441363.8433,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:14:01.396Z","mtime":"2022-09-13T09:14:01.364Z","ctime":"2022-09-13T09:14:01.364Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:14:39,047 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:14:38,844 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3590,"blocks":8,"atimeMs":1663060478812.9976,"mtimeMs":1663060478782.6587,"ctimeMs":1663060478782.6587,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:14:38.813Z","mtime":"2022-09-13T09:14:38.783Z","ctime":"2022-09-13T09:14:38.783Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:14:51,606 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3590,"blocks":8,"atimeMs":1663060480204.6091,"mtimeMs":1663060491595.1057,"ctimeMs":1663060491595.1057,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:14:40.205Z","mtime":"2022-09-13T09:14:51.595Z","ctime":"2022-09-13T09:14:51.595Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:14:51,657 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3590,"blocks":8,"atimeMs":1663060491626.41,"mtimeMs":1663060491595.1057,"ctimeMs":1663060491595.1057,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:14:51.626Z","mtime":"2022-09-13T09:14:51.595Z","ctime":"2022-09-13T09:14:51.595Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:14:51,863 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:15:28,851 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:15:28,648 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3619,"blocks":8,"atimeMs":1663060528617.7036,"mtimeMs":1663060528586.358,"ctimeMs":1663060528586.358,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:15:28.618Z","mtime":"2022-09-13T09:15:28.586Z","ctime":"2022-09-13T09:15:28.586Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:28:47,953 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:28:47,742 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3615,"blocks":8,"atimeMs":1663061327736.43,"mtimeMs":1663061327675.4395,"ctimeMs":1663061327675.4395,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:28:47.736Z","mtime":"2022-09-13T09:28:47.675Z","ctime":"2022-09-13T09:28:47.675Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:29:41,991 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:29:41,782 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3647,"blocks":8,"atimeMs":1663061381751.1099,"mtimeMs":1663061381720.0745,"ctimeMs":1663061381720.0745,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:29:41.751Z","mtime":"2022-09-13T09:29:41.720Z","ctime":"2022-09-13T09:29:41.720Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:30:21,865 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:30:21,657 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3677,"blocks":8,"atimeMs":1663061421626.6711,"mtimeMs":1663061421595.78,"ctimeMs":1663061421595.78,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:30:21.627Z","mtime":"2022-09-13T09:30:21.596Z","ctime":"2022-09-13T09:30:21.596Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:32:40,202 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:32:39,993 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3706,"blocks":8,"atimeMs":1663061559975.8376,"mtimeMs":1663061559931.54,"ctimeMs":1663061559931.54,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:32:39.976Z","mtime":"2022-09-13T09:32:39.932Z","ctime":"2022-09-13T09:32:39.932Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:44:00,219 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3742,"blocks":8,"atimeMs":1663062240183.6882,"mtimeMs":1663062240153.1904,"ctimeMs":1663062240153.1904,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:44:00.184Z","mtime":"2022-09-13T09:44:00.153Z","ctime":"2022-09-13T09:44:00.153Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:44:00,423 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-13 02:44:27,588 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 02:44:27,386 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":813,"blocks":8,"atimeMs":1663062267352.035,"mtimeMs":1663062267321.2249,"ctimeMs":1663062267321.2249,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T09:44:27.352Z","mtime":"2022-09-13T09:44:27.321Z","ctime":"2022-09-13T09:44:27.321Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:45:02,548 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 02:45:02,345 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":802,"blocks":8,"atimeMs":1663062302312.4827,"mtimeMs":1663062302280.8674,"ctimeMs":1663062302280.8674,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T09:45:02.312Z","mtime":"2022-09-13T09:45:02.281Z","ctime":"2022-09-13T09:45:02.281Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:47:23,380 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":805,"blocks":8,"atimeMs":1663062443350.1436,"mtimeMs":1663062443318.1074,"ctimeMs":1663062443318.1074,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T09:47:23.350Z","mtime":"2022-09-13T09:47:23.318Z","ctime":"2022-09-13T09:47:23.318Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 02:47:23,584 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 04:02:31,876 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":809,"blocks":8,"atimeMs":1663066951823.9148,"mtimeMs":1663066951792.4998,"ctimeMs":1663066951792.4998,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T11:02:31.824Z","mtime":"2022-09-13T11:02:31.792Z","ctime":"2022-09-13T11:02:31.792Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 04:02:32,099 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 04:02:46,011 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/admin.js change
+2022-09-13 04:02:45,750 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":805,"blocks":8,"atimeMs":1663066953585.4976,"mtimeMs":1663066965739.1013,"ctimeMs":1663066965739.1013,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T11:02:33.585Z","mtime":"2022-09-13T11:02:45.739Z","ctime":"2022-09-13T11:02:45.739Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 04:02:45,801 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":805,"blocks":8,"atimeMs":1663066965770.0266,"mtimeMs":1663066965739.1013,"ctimeMs":1663066965739.1013,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T11:02:45.770Z","mtime":"2022-09-13T11:02:45.739Z","ctime":"2022-09-13T11:02:45.739Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 09:55:32,239 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 242247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 09:58:04,996 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 132489ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 10:06:35,325 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 469895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 11:12:53,439 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 577546ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 11:49:21,383 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 2127506ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 12:02:00,055 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 718592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 12:47:54,333 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 864282ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 12:52:03,203 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 208473ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 12:56:42,183 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 238581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 13:00:08,924 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 67202ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 13:23:39,979 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 90394ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 14:47:28,278 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 767239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 14:58:42,872 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 514286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 15:00:45,363 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 61904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 15:04:03,959 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 137608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 17:25:19,661 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 2994965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 18:49:26,305 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 5005716ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-13 20:57:21,830 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/home.js change
+2022-09-13 20:57:21,427 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426344,"size":352,"blocks":8,"atimeMs":1657096031645.4697,"mtimeMs":1657096030143.8022,"ctimeMs":1657096030143.8022,"birthtimeMs":1656833008403.4006,"atime":"2022-07-06T08:27:11.645Z","mtime":"2022-07-06T08:27:10.144Z","ctime":"2022-07-06T08:27:10.144Z","birthtime":"2022-07-03T07:23:28.403Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,546 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/config/config.default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426345,"size":1658,"blocks":8,"atimeMs":1662973400037.6367,"mtimeMs":1662973398200.062,"ctimeMs":1662973398200.062,"birthtimeMs":1656833008404.1074,"atime":"2022-09-12T09:03:20.038Z","mtime":"2022-09-12T09:03:18.200Z","ctime":"2022-09-12T09:03:18.200Z","birthtime":"2022-07-03T07:23:28.404Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,557 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/config/plugin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426346,"size":291,"blocks":8,"atimeMs":1662748355397.8037,"mtimeMs":1662748353638.9417,"ctimeMs":1662748353638.9417,"birthtimeMs":1656833008404.8052,"atime":"2022-09-09T18:32:35.398Z","mtime":"2022-09-09T18:32:33.639Z","ctime":"2022-09-09T18:32:33.639Z","birthtime":"2022-07-03T07:23:28.405Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,569 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":2357,"blocks":8,"atimeMs":1662924725709.4636,"mtimeMs":1662924723465.094,"ctimeMs":1662924723465.094,"birthtimeMs":1656833558027.0903,"atime":"2022-09-11T19:32:05.709Z","mtime":"2022-09-11T19:32:03.465Z","ctime":"2022-09-11T19:32:03.465Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,577 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":3742,"blocks":8,"atimeMs":1663062241822.4292,"mtimeMs":1663062240153.1904,"ctimeMs":1663062240153.1904,"birthtimeMs":1657092258676.8164,"atime":"2022-09-13T09:44:01.822Z","mtime":"2022-09-13T09:44:00.153Z","ctime":"2022-09-13T09:44:00.153Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,588 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":805,"blocks":8,"atimeMs":1663066968032.8413,"mtimeMs":1663066965739.1013,"ctimeMs":1663066965739.1013,"birthtimeMs":1656833982325.2588,"atime":"2022-09-13T11:02:48.033Z","mtime":"2022-09-13T11:02:45.739Z","ctime":"2022-09-13T11:02:45.739Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,602 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463195,"size":524,"blocks":8,"atimeMs":1657321888402.0117,"mtimeMs":1657321886865.4617,"ctimeMs":1657321886865.4617,"birthtimeMs":1656833988551.312,"atime":"2022-07-08T23:11:28.402Z","mtime":"2022-07-08T23:11:26.865Z","ctime":"2022-07-08T23:11:26.865Z","birthtime":"2022-07-03T07:39:48.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,628 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/middleware/adminauth.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14602760,"size":465,"blocks":8,"atimeMs":1657249767894.8855,"mtimeMs":1657249765595.8196,"ctimeMs":1657249765595.8196,"birthtimeMs":1657185031148.7156,"atime":"2022-07-08T03:09:27.895Z","mtime":"2022-07-08T03:09:25.596Z","ctime":"2022-07-08T03:09:25.596Z","birthtime":"2022-07-07T09:10:31.149Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-13 20:57:21,630 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426348,"size":214,"blocks":8,"atimeMs":1656833009933.0557,"mtimeMs":1656833008405.8918,"ctimeMs":1656833490789.7263,"birthtimeMs":1656833008405.7861,"atime":"2022-07-03T07:23:29.933Z","mtime":"2022-07-03T07:23:28.406Z","ctime":"2022-07-03T07:31:30.790Z","birthtime":"2022-07-03T07:23:28.406Z"},"remove":false,"isDirectory":false,"isFile":true}

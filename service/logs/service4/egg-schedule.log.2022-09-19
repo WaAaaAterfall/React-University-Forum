@@ -1,0 +1,27 @@
+2022-09-19 01:21:36,742 INFO 96003 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:21:36,742 INFO 96003 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:21:36,742 INFO 96003 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 01:25:47,036 INFO 96107 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:25:47,036 INFO 96107 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:25:47,036 INFO 96107 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 01:26:38,792 INFO 96146 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:26:38,792 INFO 96146 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:26:38,792 INFO 96146 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 01:29:56,924 INFO 96256 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:29:56,924 INFO 96256 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:29:56,924 INFO 96256 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 01:30:13,990 INFO 96269 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:30:13,990 INFO 96269 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:30:13,991 INFO 96269 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 01:30:47,411 INFO 96307 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-19 01:30:47,411 INFO 96307 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-19 01:30:47,411 INFO 96307 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-19 05:38:09,171 INFO 88096 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 82310995ms at 2022-09-20 04:30:00.164
+2022-09-19 05:38:09,244 INFO 96307 [Job#166359108897935224402869814431] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-09-19 05:38:09,457 INFO 96307 [Job#166359108897935224402869814431] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 189ms. 
+2022-09-20 00:08:02,884 INFO 88096 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85917203ms at 2022-09-21 00:00:00.087
+2022-09-20 00:08:02,909 INFO 88096 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85918107ms at 2022-09-21 00:00:01.016
+2022-09-20 00:08:02,939 INFO 96307 [Job#166365768277335890343028223272] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-09-20 00:08:03,235 INFO 96307 [Job#166365768289135890344187682202] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-09-20 00:08:04,350 INFO 96307 [Job#166365768277335890343028223272] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 1374ms. 
+2022-09-20 00:08:04,363 INFO 96307 [Job#166365768289135890344187682202] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 1126ms. 

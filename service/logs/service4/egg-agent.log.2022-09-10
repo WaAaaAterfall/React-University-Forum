@@ -1,0 +1,11 @@
+2022-09-10 00:00:57,299 INFO 32359 [egg-logrotator] agent logger reload: got log-reload message
+2022-09-10 23:51:37,154 INFO 91539 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-10 23:51:37,166 INFO 91539 [egg:core] dump config after load, 7ms
+2022-09-10 23:51:37,221 INFO 91539 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-10 23:51:37,221 INFO 91539 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-10 23:51:37,222 INFO 91539 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-10 23:51:37,222 INFO 91539 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-10 23:51:37,222 INFO 91539 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-10 23:51:37,222 INFO 91539 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-10 23:51:37,223 INFO 91539 [egg-watcher:agent] watcher start success
+2022-09-10 23:51:37,250 INFO 91539 [egg:core] dump config after ready, 7ms

@@ -1,0 +1,237 @@
+2022-09-19 00:00:01,682 INFO 88096 [egg-logrotator] agent logger reload: got log-reload message
+2022-09-19 01:21:35,352 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-19 01:21:35,077 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":3072,"blocks":8,"atimeMs":1663575694975.4426,"mtimeMs":1663575694943.7812,"ctimeMs":1663575694943.7812,"birthtimeMs":1656833558027.0903,"atime":"2022-09-19T08:21:34.975Z","mtime":"2022-09-19T08:21:34.944Z","ctime":"2022-09-19T08:21:34.944Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 01:25:45,818 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-19 01:25:45,601 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":3554,"blocks":8,"atimeMs":1663575945570.4795,"mtimeMs":1663575945538.712,"ctimeMs":1663575945538.712,"birthtimeMs":1656833558027.0903,"atime":"2022-09-19T08:25:45.570Z","mtime":"2022-09-19T08:25:45.539Z","ctime":"2022-09-19T08:25:45.539Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 01:26:37,936 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/router/default.js change
+2022-09-19 01:26:37,722 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463195,"size":859,"blocks":8,"atimeMs":1663575997691.4988,"mtimeMs":1663575997659.0908,"ctimeMs":1663575997659.0908,"birthtimeMs":1656833988551.312,"atime":"2022-09-19T08:26:37.691Z","mtime":"2022-09-19T08:26:37.659Z","ctime":"2022-09-19T08:26:37.659Z","birthtime":"2022-07-03T07:39:48.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 01:29:55,984 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-19 01:29:55,780 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":3554,"blocks":8,"atimeMs":1663576195752.591,"mtimeMs":1663576195718.2678,"ctimeMs":1663576195718.2678,"birthtimeMs":1656833558027.0903,"atime":"2022-09-19T08:29:55.753Z","mtime":"2022-09-19T08:29:55.718Z","ctime":"2022-09-19T08:29:55.718Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 01:30:12,907 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-19 01:30:12,706 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":3603,"blocks":8,"atimeMs":1663576212675.2795,"mtimeMs":1663576212643.8667,"ctimeMs":1663576212643.8667,"birthtimeMs":1656833558027.0903,"atime":"2022-09-19T08:30:12.675Z","mtime":"2022-09-19T08:30:12.644Z","ctime":"2022-09-19T08:30:12.644Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 01:30:46,510 WARN 88096 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-19 01:30:46,303 INFO 88096 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":3604,"blocks":8,"atimeMs":1663576246273.367,"mtimeMs":1663576246241.1577,"ctimeMs":1663576246241.1577,"birthtimeMs":1656833558027.0903,"atime":"2022-09-19T08:30:46.273Z","mtime":"2022-09-19T08:30:46.241Z","ctime":"2022-09-19T08:30:46.241Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-19 02:38:49,704 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 103525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 02:48:41,303 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 550979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 02:54:08,367 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 287010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 03:19:29,009 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1480248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 03:36:29,001 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 979607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 05:38:09,182 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 7199581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 07:16:31,855 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5862407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 08:00:02,559 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 2450611ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 09:39:42,076 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5939620ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 11:52:45,586 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 4319596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 11:55:27,473 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 121470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 12:02:28,766 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 361262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 12:24:17,023 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 847664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:07:04,761 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 2526869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:23:22,523 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 237097ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:31:47,954 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 465032ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:36:07,977 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 103233ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 14:56:09,693 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 4761332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:25:04,734 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 134573ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:53:04,812 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1639647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:55:38,081 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 112894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 18:04:21,871 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1730153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 18:58:26,850 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 3204821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 19:16:01,872 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 994597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 20:25:33,833 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 3971617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 22:26:25,818 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 7211615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 22:33:24,643 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 378525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-20 00:08:02,911 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5637722ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+

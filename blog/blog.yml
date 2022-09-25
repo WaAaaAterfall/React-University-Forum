@@ -1,0 +1,33 @@
+# runtime: nodejs10
+# handlers:
+# - url: /(.*\..+)$
+#   static_files: build/\1
+#   upload: build/(.*\..+)$
+# - url: /.*
+#   static_files: build/index.html
+#   upload: build/index.html
+
+runtime: nodejs10
+service: default
+env: flex
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 10
+  cool_down_period_sec: 180
+  cpu_utilization:
+    target_utilization: 0.9
+resources:
+  cpu: 2
+  memory_gb: 4.6
+  disk_size_gb: 10
+network: 
+  name: default
+handlers:
+    # Serve all static files with urls ending with a file extension
+    - url: /(.*\..+)$
+      static_files: dist/\1
+      upload: dist/(.*\..+)$
+      # catch all handler to index.html
+    # - url: /.*
+    #   static_files: dist/index.html
+    #   upload: dist/index.html

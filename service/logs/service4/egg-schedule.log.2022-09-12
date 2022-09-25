@@ -1,0 +1,12 @@
+2022-09-12 02:03:20,229 INFO 48650 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-12 02:03:20,229 INFO 48650 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-12 02:03:20,229 INFO 48650 [egg-schedule]: register schedule /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-12 04:30:01,464 INFO 48650 [Job#166298220137129135538259279662] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-09-12 04:30:01,517 INFO 48650 [Job#166298220137129135538259279662] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 38ms. 
+2022-09-12 04:30:01,419 INFO 91539 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86398614ms at 2022-09-13 04:30:00.033
+2022-09-12 23:59:59,985 INFO 48650 [Job#166305239982729837527409712943] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-09-13 00:00:00,206 INFO 48650 [Job#166305239982729837527409712943] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 190ms. 
+2022-09-12 23:59:59,929 INFO 91539 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400139ms at 2022-09-14 00:00:00.061
+2022-09-13 00:00:00,764 INFO 48650 [Job#166305240076029837536714704143] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-09-13 00:00:00,791 INFO 48650 [Job#166305240076029837536714704143] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 26ms. 
+2022-09-13 00:00:00,772 INFO 91539 [Timer] /Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400237ms at 2022-09-14 00:00:01.009

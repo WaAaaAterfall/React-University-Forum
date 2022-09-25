@@ -1,0 +1,358 @@
+2022-09-19 00:16:00,876 ERROR 88103 [-/127.0.0.1/-/166ms GET /default/getArticleById/undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:65:19)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.intro as intro ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s') as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.intro as intro ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s') as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 88103
+hostname: hahas-MBP.lan
+
+2022-09-19 00:16:13,394 ERROR 88103 [-/127.0.0.1/-/155ms GET /default/getArticleById/undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:65:19)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.intro as intro ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s') as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.intro as intro ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s') as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 88103
+hostname: hahas-MBP.lan
+
+2022-09-19 01:30:31,133 ERROR 96269 [-/127.0.0.1/-/290ms GET /default/getCommentsByArticle/3] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comments.userName as userName FROM comments LEFT JOIN article ON comments.articl' at line 1
+    at Query.Sequence._packetToError (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:65:19)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:54:5
+    sql: SELECT comments.id as id ,comments.content as content ,comments.addTime as addTime ,comments.likes as likes ,comments.userId as userId comments.userName as userName FROM comments LEFT JOIN article ON comments.article_id = article.id WHERE article_id=3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comments.userName as userName FROM comments LEFT JOIN article ON comments.articl' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT comments.id as id ,comments.content as content ,comments.addTime as addTime ,comments.likes as likes ,comments.userId as userId comments.userName as userName FROM comments LEFT JOIN article ON comments.article_id = article.id WHERE article_id=3"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 96269
+hostname: hahas-MBP.lan
+
+2022-09-19 01:30:31,278 ERROR 96269 [-/127.0.0.1/-/141ms GET /default/getCommentsByArticle/3] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comments.userName as userName FROM comments LEFT JOIN article ON comments.articl' at line 1
+    at Query.Sequence._packetToError (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/haha/Documents/react/react_blog2/service4/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/haha/Documents/react/react_blog2/service4/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:65:19)
+    at /Users/haha/Documents/react/react_blog2/service4/node_modules/co/index.js:54:5
+    sql: SELECT comments.id as id ,comments.content as content ,comments.addTime as addTime ,comments.likes as likes ,comments.userId as userId comments.userName as userName FROM comments LEFT JOIN article ON comments.article_id = article.id WHERE article_id=3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comments.userName as userName FROM comments LEFT JOIN article ON comments.articl' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT comments.id as id ,comments.content as content ,comments.addTime as addTime ,comments.likes as likes ,comments.userId as userId comments.userName as userName FROM comments LEFT JOIN article ON comments.article_id = article.id WHERE article_id=3"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 96269
+hostname: hahas-MBP.lan
+
+2022-09-19 02:38:49,669 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 103525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 02:48:41,279 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 550979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 02:54:08,362 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 287010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 03:19:28,999 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1480248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 03:36:28,996 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 979607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 05:38:09,181 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 7199581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 07:16:31,851 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5862407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 08:00:02,559 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 2450611ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 09:39:42,076 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5939620ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 11:52:45,585 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 4319596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 11:55:27,472 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 121470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 12:02:28,762 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 361262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 12:24:16,996 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 847664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:07:04,678 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 2526869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:23:22,522 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 237097ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:31:47,595 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 465032ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 13:36:07,977 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 103233ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 14:56:09,682 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 4761332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:25:04,728 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 134573ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:53:04,812 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1639647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 15:55:38,080 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 112894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 18:04:21,859 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 1730153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 18:58:26,847 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 3204821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 19:16:01,872 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 994597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 20:25:33,470 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 3971617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 22:26:25,818 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 7211615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-19 22:33:24,642 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 378525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+
+2022-09-20 00:08:02,911 ERROR 88096 nodejs.ClusterClientNoResponseError: client no response in 5637722ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 88096
+hostname: hahas-MBP.lan
+

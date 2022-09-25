@@ -1,0 +1,33 @@
+2022-09-12 00:00:02,389 INFO 31788 [egg-logrotator] app logger reload: got log-reload message
+2022-09-12 02:03:20,190 INFO 48650 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-12 02:03:20,230 INFO 48650 [egg-multipart] stream mode enable
+2022-09-12 02:03:20,230 INFO 48650 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-12 02:03:20,573 INFO 48650 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-12 02:03:20,577 INFO 48650 [egg-security] use methodnoallow middleware
+2022-09-12 02:03:20,578 INFO 48650 [egg-security] use noopen middleware
+2022-09-12 02:03:20,579 INFO 48650 [egg-security] use nosniff middleware
+2022-09-12 02:03:20,581 INFO 48650 [egg-security] use xssProtection middleware
+2022-09-12 02:03:20,582 INFO 48650 [egg-security] use xframe middleware
+2022-09-12 02:03:20,582 INFO 48650 [egg-security] use dta middleware
+2022-09-12 02:03:20,583 INFO 48650 [egg-security] compose 6 middlewares into one security middleware
+2022-09-12 02:03:20,600 INFO 48650 [egg:core] dump config after load, 7ms
+2022-09-12 02:03:20,714 INFO 48650 [egg-watcher:application] watcher start success
+2022-09-12 02:03:20,767 INFO 48650 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 12 2022 02:03:20 GMT-0700 (Pacific Daylight Time)
+2022-09-12 02:03:20,784 INFO 48650 [egg:core] dump config after ready, 12ms
+2022-09-12 04:30:01,493 INFO 48650 [-/127.0.0.1/-/12ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/service4"
+2022-09-12 04:30:01,517 INFO 48650 [-/127.0.0.1/-/39ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-09-12 11:39:38,134 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 11:39:38,435 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-12 11:41:49,697 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 11:41:49,697 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-12 11:55:28,125 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 11:55:28,125 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-12 12:00:42,670 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 12:00:42,673 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-12 13:32:34,552 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 13:32:34,578 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-12 14:35:18,874 WARN 48650 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-12 14:35:19,266 WARN 48650 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-13 00:00:00,205 INFO 48650 [egg-logrotator] clean all log before 31 days
+2022-09-13 00:00:00,789 INFO 48650 [egg-logrotator] broadcast log-reload
+2022-09-13 00:00:00,791 INFO 48650 [egg-logrotator] rotate files success by DayRotator, files ["/Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log.2022-09-12","/Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log.2022-09-12","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log.2022-09-12","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log.2022-09-12","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log.2022-09-12"]

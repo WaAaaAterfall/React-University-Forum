@@ -1,0 +1,254 @@
+2022-09-21 00:00:01,098 INFO 9094 [egg-logrotator] agent logger reload: got log-reload message
+2022-09-21 00:29:56,732 WARN 9094 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-21 00:29:56,495 INFO 9094 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":4209,"blocks":16,"atimeMs":1663745396427.5742,"mtimeMs":1663745396396.1018,"ctimeMs":1663745396396.1018,"birthtimeMs":1657092258676.8164,"atime":"2022-09-21T07:29:56.428Z","mtime":"2022-09-21T07:29:56.396Z","ctime":"2022-09-21T07:29:56.396Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 00:30:44,687 WARN 9094 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js change
+2022-09-21 00:30:44,476 INFO 9094 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":4148,"blocks":16,"atimeMs":1663745444444.456,"mtimeMs":1663745444412.7952,"ctimeMs":1663745444412.7952,"birthtimeMs":1657092258676.8164,"atime":"2022-09-21T07:30:44.444Z","mtime":"2022-09-21T07:30:44.413Z","ctime":"2022-09-21T07:30:44.413Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 00:31:29,577 WARN 9094 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-21 00:31:29,371 INFO 9094 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":4161,"blocks":16,"atimeMs":1663745489339.6416,"mtimeMs":1663745489308.6194,"ctimeMs":1663745489308.6194,"birthtimeMs":1656833558027.0903,"atime":"2022-09-21T07:31:29.340Z","mtime":"2022-09-21T07:31:29.309Z","ctime":"2022-09-21T07:31:29.309Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 00:31:37,134 WARN 9094 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js change
+2022-09-21 00:31:36,878 INFO 9094 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":4160,"blocks":16,"atimeMs":1663745490653.2524,"mtimeMs":1663745496867.8582,"ctimeMs":1663745496867.8582,"birthtimeMs":1656833558027.0903,"atime":"2022-09-21T07:31:30.653Z","mtime":"2022-09-21T07:31:36.868Z","ctime":"2022-09-21T07:31:36.868Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 00:31:36,929 INFO 9094 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":4160,"blocks":16,"atimeMs":1663745496898.21,"mtimeMs":1663745496867.8582,"ctimeMs":1663745496867.8582,"birthtimeMs":1656833558027.0903,"atime":"2022-09-21T07:31:36.898Z","mtime":"2022-09-21T07:31:36.868Z","ctime":"2022-09-21T07:31:36.868Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 01:21:51,932 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1751483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 01:37:52,745 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 920333ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 02:28:01,728 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 2768576ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 02:36:16,900 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 320417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 03:07:05,689 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1730939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 03:24:36,633 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1010931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 04:47:04,274 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 4906589ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 06:47:56,253 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 7211883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 08:00:02,649 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 4285604ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 09:39:45,588 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 5942597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 11:27:53,814 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 2887474ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 12:01:22,562 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1968212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 13:11:40,674 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 176802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 13:31:39,002 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1157819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 13:49:28,750 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1029690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 14:05:28,155 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 919356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 14:21:19,563 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 910592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 14:38:21,594 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 981621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 15:05:09,572 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 1487599ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 15:19:18,898 ERROR 9094 nodejs.ClusterClientNoResponseError: client no response in 808936ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 9094
+hostname: hahas-MBP.lan
+
+2022-09-21 15:20:12,771 INFO 14919 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-21 15:20:12,781 INFO 14919 [egg:core] dump config after load, 6ms
+2022-09-21 15:20:12,871 INFO 14919 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-21 15:20:12,871 INFO 14919 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-21 15:20:12,872 INFO 14919 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-21 15:20:12,872 INFO 14919 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-21 15:20:12,872 INFO 14919 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-21 15:20:12,872 INFO 14919 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-21 15:20:12,873 INFO 14919 [egg-watcher:agent] watcher start success
+2022-09-21 15:20:12,989 INFO 14919 [egg:core] dump config after ready, 60ms
+2022-09-21 15:21:50,417 INFO 15066 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-21 15:21:50,426 INFO 15066 [egg:core] dump config after load, 4ms
+2022-09-21 15:21:50,483 INFO 15066 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-21 15:21:50,483 INFO 15066 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-21 15:21:50,484 INFO 15066 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-21 15:21:50,484 INFO 15066 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-21 15:21:50,484 INFO 15066 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-21 15:21:50,484 INFO 15066 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-21 15:21:50,485 INFO 15066 [egg-watcher:agent] watcher start success
+2022-09-21 15:21:50,499 INFO 15066 [egg:core] dump config after ready, 5ms
+2022-09-21 15:36:33,424 WARN 15066 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/app/controller/home.js change
+2022-09-21 15:36:33,166 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426344,"size":352,"blocks":8,"atimeMs":1657096031645.4697,"mtimeMs":1657096030143.8022,"ctimeMs":1657096030143.8022,"birthtimeMs":1656833008403.4006,"atime":"2022-07-06T08:27:11.645Z","mtime":"2022-07-06T08:27:10.144Z","ctime":"2022-07-06T08:27:10.144Z","birthtime":"2022-07-03T07:23:28.403Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,208 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/config/config.default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426345,"size":1712,"blocks":8,"atimeMs":1663479715648.425,"mtimeMs":1663479714051.1016,"ctimeMs":1663479714051.1016,"birthtimeMs":1656833008404.1074,"atime":"2022-09-18T05:41:55.648Z","mtime":"2022-09-18T05:41:54.051Z","ctime":"2022-09-18T05:41:54.051Z","birthtime":"2022-07-03T07:23:28.404Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,209 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/config/plugin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426346,"size":291,"blocks":8,"atimeMs":1662748355397.8037,"mtimeMs":1662748353638.9417,"ctimeMs":1662748353638.9417,"birthtimeMs":1656833008404.8052,"atime":"2022-09-09T18:32:35.398Z","mtime":"2022-09-09T18:32:33.639Z","ctime":"2022-09-09T18:32:33.639Z","birthtime":"2022-07-03T07:23:28.405Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,210 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/default/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13462451,"size":4160,"blocks":16,"atimeMs":1663745498136.2688,"mtimeMs":1663745496867.8582,"ctimeMs":1663799041872.731,"birthtimeMs":1656833558027.0903,"atime":"2022-09-21T07:31:38.136Z","mtime":"2022-09-21T07:31:36.868Z","ctime":"2022-09-21T22:24:01.873Z","birthtime":"2022-07-03T07:32:38.027Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,219 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/admin/main.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14345144,"size":4148,"blocks":16,"atimeMs":1663745446208.9253,"mtimeMs":1663745444412.7952,"ctimeMs":1663799041872.1592,"birthtimeMs":1657092258676.8164,"atime":"2022-09-21T07:30:46.209Z","mtime":"2022-09-21T07:30:44.413Z","ctime":"2022-09-21T22:24:01.872Z","birthtime":"2022-07-06T07:24:18.677Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,221 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463195,"size":863,"blocks":8,"atimeMs":1663739818946.4644,"mtimeMs":1663739817594.3293,"ctimeMs":1663799041875.9958,"birthtimeMs":1656833988551.312,"atime":"2022-09-21T05:56:58.946Z","mtime":"2022-09-21T05:56:57.594Z","ctime":"2022-09-21T22:24:01.876Z","birthtime":"2022-07-03T07:39:48.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,221 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/router/admin.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13463190,"size":875,"blocks":8,"atimeMs":1663529095380.2095,"mtimeMs":1663529094124.0718,"ctimeMs":1663799041875.4028,"birthtimeMs":1656833982325.2588,"atime":"2022-09-18T19:24:55.380Z","mtime":"2022-09-18T19:24:54.124Z","ctime":"2022-09-21T22:24:01.875Z","birthtime":"2022-07-03T07:39:42.325Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,222 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/middleware/adminauth.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14602760,"size":465,"blocks":8,"atimeMs":1657249767894.8855,"mtimeMs":1657249765595.8196,"ctimeMs":1657249765595.8196,"birthtimeMs":1657185031148.7156,"atime":"2022-07-08T03:09:27.895Z","mtime":"2022-07-08T03:09:25.596Z","ctime":"2022-07-08T03:09:25.596Z","birthtime":"2022-07-07T09:10:31.149Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 15:36:33,222 INFO 15066 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/app/controller/home.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426348,"size":214,"blocks":8,"atimeMs":1656833009933.0557,"mtimeMs":1656833008405.8918,"ctimeMs":1656833490789.7263,"birthtimeMs":1656833008405.7861,"atime":"2022-07-03T07:23:29.933Z","mtime":"2022-07-03T07:23:28.406Z","ctime":"2022-07-03T07:31:30.790Z","birthtime":"2022-07-03T07:23:28.406Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-21 17:53:22,504 ERROR 15066 nodejs.ClusterClientNoResponseError: client no response in 146430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 15066
+hostname: hahas-MBP.lan
+
+2022-09-21 18:05:20,929 ERROR 15066 nodejs.ClusterClientNoResponseError: client no response in 677911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 15066
+hostname: hahas-MBP.lan
+
+2022-09-22 15:53:06,535 INFO 38633 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-22 15:53:06,545 INFO 38633 [egg:core] dump config after load, 5ms
+2022-09-22 15:53:06,593 INFO 38633 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-22 15:53:06,594 INFO 38633 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-22 15:53:06,594 INFO 38633 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-22 15:53:06,594 INFO 38633 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-22 15:53:06,594 INFO 38633 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-22 15:53:06,594 INFO 38633 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-22 15:53:06,595 INFO 38633 [egg-watcher:agent] watcher start success
+2022-09-22 15:53:06,615 INFO 38633 [egg:core] dump config after ready, 5ms
+2022-09-22 16:53:47,126 ERROR 38633 nodejs.ClusterClientNoResponseError: client no response in 1398487ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 38633
+hostname: hahas-MBP.lan
+
+2022-09-25 09:34:21,587 INFO 15925 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-25 09:34:21,597 INFO 15925 [egg:core] dump config after load, 5ms
+2022-09-25 09:34:21,650 INFO 15925 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-25 09:34:21,650 INFO 15925 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-25 09:34:21,650 INFO 15925 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-25 09:34:21,650 INFO 15925 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-25 09:34:21,650 INFO 15925 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-25 09:34:21,651 INFO 15925 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-25 09:34:21,651 INFO 15925 [egg-watcher:agent] watcher start success
+2022-09-25 09:34:21,665 INFO 15925 [egg:core] dump config after ready, 6ms
+2022-09-25 11:14:05,035 INFO 20821 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-09-25 11:14:05,047 INFO 20821 [egg:core] dump config after load, 6ms
+2022-09-25 11:14:05,097 INFO 20821 [egg-watcher] Start watching: ["/Users/haha/Documents/react/react_blog2/service4/app","/Users/haha/Documents/react/react_blog2/service4/config","/Users/haha/Documents/react/react_blog2/service4/mocks","/Users/haha/Documents/react/react_blog2/service4/mocks_proxy","/Users/haha/Documents/react/react_blog2/service4/app.js"]
+2022-09-25 11:14:05,098 INFO 20821 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app"
+2022-09-25 11:14:05,098 INFO 20821 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/config"
+2022-09-25 11:14:05,098 INFO 20821 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks"
+2022-09-25 11:14:05,098 INFO 20821 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/mocks_proxy"
+2022-09-25 11:14:05,098 INFO 20821 [egg-watcher] Start watching: "/Users/haha/Documents/react/react_blog2/service4/app.js"
+2022-09-25 11:14:05,099 INFO 20821 [egg-watcher:agent] watcher start success
+2022-09-25 11:14:05,115 INFO 20821 [egg:core] dump config after ready, 5ms

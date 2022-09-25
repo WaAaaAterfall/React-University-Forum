@@ -1,0 +1,179 @@
+2022-08-09 00:00:01,090 INFO 1741 [egg-logrotator] app logger reload: got log-reload message
+2022-08-09 00:51:02,116 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 00:51:02,150 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 01:16:55,786 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 01:16:55,789 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 01:41:20,796 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 01:41:20,798 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 02:27:26,785 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 02:27:26,786 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 04:28:15,792 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 04:28:15,792 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 05:31:51,742 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 05:31:51,742 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 05:31:51,794 INFO 1741 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/service4"
+2022-08-09 05:31:51,797 INFO 1741 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-08-09 07:32:45,716 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 07:32:45,716 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 08:00:02,662 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 08:00:02,662 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 10:00:50,624 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 10:00:50,624 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-09 10:32:23,832 WARN 1741 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-09 10:32:23,832 WARN 1741 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 11:11:31,020 INFO 32360 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 11:11:31,048 INFO 32360 [egg-multipart] stream mode enable
+2022-09-09 11:11:31,049 INFO 32360 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 11:11:31,269 INFO 32360 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 11:11:31,272 INFO 32360 [egg-security] use methodnoallow middleware
+2022-09-09 11:11:31,273 INFO 32360 [egg-security] use noopen middleware
+2022-09-09 11:11:31,274 INFO 32360 [egg-security] use nosniff middleware
+2022-09-09 11:11:31,275 INFO 32360 [egg-security] use xssProtection middleware
+2022-09-09 11:11:31,276 INFO 32360 [egg-security] use xframe middleware
+2022-09-09 11:11:31,277 INFO 32360 [egg-security] use dta middleware
+2022-09-09 11:11:31,277 INFO 32360 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 11:11:31,294 INFO 32360 [egg:core] dump config after load, 8ms
+2022-09-09 11:11:31,315 INFO 32360 [egg-watcher:application] watcher start success
+2022-09-09 11:11:31,383 INFO 32360 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 11:11:31 GMT-0700 (Pacific Daylight Time)
+2022-09-09 11:11:31,391 INFO 32360 [egg:core] dump config after ready, 5ms
+2022-09-09 11:27:22,316 INFO 32971 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 11:27:22,348 INFO 32971 [egg-multipart] stream mode enable
+2022-09-09 11:27:22,348 INFO 32971 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 11:27:22,527 INFO 32971 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 11:27:22,530 INFO 32971 [egg-security] use methodnoallow middleware
+2022-09-09 11:27:22,531 INFO 32971 [egg-security] use noopen middleware
+2022-09-09 11:27:22,532 INFO 32971 [egg-security] use nosniff middleware
+2022-09-09 11:27:22,532 INFO 32971 [egg-security] use xssProtection middleware
+2022-09-09 11:27:22,533 INFO 32971 [egg-security] use xframe middleware
+2022-09-09 11:27:22,533 INFO 32971 [egg-security] use dta middleware
+2022-09-09 11:27:22,533 INFO 32971 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 11:27:22,561 INFO 32971 [egg:core] dump config after load, 12ms
+2022-09-09 11:27:22,580 INFO 32971 [egg-watcher:application] watcher start success
+2022-09-09 11:27:22,589 INFO 32971 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 11:27:22 GMT-0700 (Pacific Daylight Time)
+2022-09-09 11:27:22,596 INFO 32971 [egg:core] dump config after ready, 5ms
+2022-09-09 11:32:35,280 INFO 33223 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 11:32:35,319 INFO 33223 [egg-multipart] stream mode enable
+2022-09-09 11:32:35,319 INFO 33223 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 11:32:35,509 INFO 33223 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 11:32:35,512 INFO 33223 [egg-security] use methodnoallow middleware
+2022-09-09 11:32:35,512 INFO 33223 [egg-security] use noopen middleware
+2022-09-09 11:32:35,513 INFO 33223 [egg-security] use nosniff middleware
+2022-09-09 11:32:35,514 INFO 33223 [egg-security] use xssProtection middleware
+2022-09-09 11:32:35,514 INFO 33223 [egg-security] use xframe middleware
+2022-09-09 11:32:35,515 INFO 33223 [egg-security] use dta middleware
+2022-09-09 11:32:35,515 INFO 33223 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 11:32:35,533 INFO 33223 [egg:core] dump config after load, 7ms
+2022-09-09 11:32:35,550 INFO 33223 [egg-watcher:application] watcher start success
+2022-09-09 11:32:35,557 INFO 33223 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 11:32:35 GMT-0700 (Pacific Daylight Time)
+2022-09-09 11:32:35,565 INFO 33223 [egg:core] dump config after ready, 6ms
+2022-09-09 11:33:02,652 INFO 33239 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 11:33:02,683 INFO 33239 [egg-multipart] stream mode enable
+2022-09-09 11:33:02,684 INFO 33239 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 11:33:02,893 INFO 33239 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 11:33:02,895 INFO 33239 [egg-security] use methodnoallow middleware
+2022-09-09 11:33:02,896 INFO 33239 [egg-security] use noopen middleware
+2022-09-09 11:33:02,896 INFO 33239 [egg-security] use nosniff middleware
+2022-09-09 11:33:02,897 INFO 33239 [egg-security] use xssProtection middleware
+2022-09-09 11:33:02,898 INFO 33239 [egg-security] use xframe middleware
+2022-09-09 11:33:02,898 INFO 33239 [egg-security] use dta middleware
+2022-09-09 11:33:02,898 INFO 33239 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 11:33:02,912 INFO 33239 [egg:core] dump config after load, 5ms
+2022-09-09 11:33:02,929 INFO 33239 [egg-watcher:application] watcher start success
+2022-09-09 11:33:02,937 INFO 33239 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 11:33:02 GMT-0700 (Pacific Daylight Time)
+2022-09-09 11:33:02,944 INFO 33239 [egg:core] dump config after ready, 5ms
+2022-09-09 12:20:42,401 INFO 34542 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 12:20:42,433 INFO 34542 [egg-multipart] stream mode enable
+2022-09-09 12:20:42,433 INFO 34542 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 12:20:42,645 INFO 34542 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 12:20:42,648 INFO 34542 [egg-security] use methodnoallow middleware
+2022-09-09 12:20:42,648 INFO 34542 [egg-security] use noopen middleware
+2022-09-09 12:20:42,649 INFO 34542 [egg-security] use nosniff middleware
+2022-09-09 12:20:42,650 INFO 34542 [egg-security] use xssProtection middleware
+2022-09-09 12:20:42,650 INFO 34542 [egg-security] use xframe middleware
+2022-09-09 12:20:42,651 INFO 34542 [egg-security] use dta middleware
+2022-09-09 12:20:42,651 INFO 34542 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 12:20:42,666 INFO 34542 [egg:core] dump config after load, 7ms
+2022-09-09 12:20:42,688 INFO 34542 [egg-watcher:application] watcher start success
+2022-09-09 12:20:42,701 INFO 34542 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 12:20:42 GMT-0700 (Pacific Daylight Time)
+2022-09-09 12:20:42,711 INFO 34542 [egg:core] dump config after ready, 7ms
+2022-09-09 12:20:57,370 INFO 34582 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 12:20:57,417 INFO 34582 [egg-multipart] stream mode enable
+2022-09-09 12:20:57,418 INFO 34582 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 12:20:57,634 INFO 34582 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 12:20:57,636 INFO 34582 [egg-security] use methodnoallow middleware
+2022-09-09 12:20:57,637 INFO 34582 [egg-security] use noopen middleware
+2022-09-09 12:20:57,638 INFO 34582 [egg-security] use nosniff middleware
+2022-09-09 12:20:57,638 INFO 34582 [egg-security] use xssProtection middleware
+2022-09-09 12:20:57,639 INFO 34582 [egg-security] use xframe middleware
+2022-09-09 12:20:57,639 INFO 34582 [egg-security] use dta middleware
+2022-09-09 12:20:57,640 INFO 34582 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 12:20:57,652 INFO 34582 [egg:core] dump config after load, 5ms
+2022-09-09 12:20:57,671 INFO 34582 [egg-watcher:application] watcher start success
+2022-09-09 12:20:57,685 INFO 34582 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 12:20:57 GMT-0700 (Pacific Daylight Time)
+2022-09-09 12:20:57,692 INFO 34582 [egg:core] dump config after ready, 5ms
+2022-09-09 12:29:32,614 INFO 34748 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 12:29:32,645 INFO 34748 [egg-multipart] stream mode enable
+2022-09-09 12:29:32,645 INFO 34748 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 12:29:32,836 INFO 34748 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 12:29:32,838 INFO 34748 [egg-security] use methodnoallow middleware
+2022-09-09 12:29:32,839 INFO 34748 [egg-security] use noopen middleware
+2022-09-09 12:29:32,840 INFO 34748 [egg-security] use nosniff middleware
+2022-09-09 12:29:32,841 INFO 34748 [egg-security] use xssProtection middleware
+2022-09-09 12:29:32,841 INFO 34748 [egg-security] use xframe middleware
+2022-09-09 12:29:32,842 INFO 34748 [egg-security] use dta middleware
+2022-09-09 12:29:32,842 INFO 34748 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 12:29:32,856 INFO 34748 [egg:core] dump config after load, 7ms
+2022-09-09 12:29:32,874 INFO 34748 [egg-watcher:application] watcher start success
+2022-09-09 12:29:32,882 INFO 34748 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 12:29:32 GMT-0700 (Pacific Daylight Time)
+2022-09-09 12:29:32,889 INFO 34748 [egg:core] dump config after ready, 5ms
+2022-09-09 12:33:36,091 INFO 34846 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-09 12:33:36,120 INFO 34846 [egg-multipart] stream mode enable
+2022-09-09 12:33:36,120 INFO 34846 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-09 12:33:36,285 INFO 34846 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-09 12:33:36,288 INFO 34846 [egg-security] use methodnoallow middleware
+2022-09-09 12:33:36,288 INFO 34846 [egg-security] use noopen middleware
+2022-09-09 12:33:36,289 INFO 34846 [egg-security] use nosniff middleware
+2022-09-09 12:33:36,290 INFO 34846 [egg-security] use xssProtection middleware
+2022-09-09 12:33:36,290 INFO 34846 [egg-security] use xframe middleware
+2022-09-09 12:33:36,291 INFO 34846 [egg-security] use dta middleware
+2022-09-09 12:33:36,291 INFO 34846 [egg-security] compose 6 middlewares into one security middleware
+2022-09-09 12:33:36,302 INFO 34846 [egg:core] dump config after load, 4ms
+2022-09-09 12:33:36,323 INFO 34846 [egg-watcher:application] watcher start success
+2022-09-09 12:33:36,325 INFO 34846 [egg-mysql] instance[0] status OK, rds currentTime: Fri Sep 09 2022 12:33:36 GMT-0700 (Pacific Daylight Time)
+2022-09-09 12:33:36,332 INFO 34846 [egg:core] dump config after ready, 5ms
+2022-09-09 13:40:59,945 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 13:41:00,028 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 13:45:13,795 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 13:45:13,796 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 13:51:21,897 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 13:51:21,898 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 14:19:03,839 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 14:19:03,844 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 14:22:00,091 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 14:22:00,095 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 15:08:43,304 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 15:08:43,315 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 15:20:40,150 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 15:20:40,153 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 15:55:42,400 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 15:55:42,423 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 18:33:28,057 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 18:33:28,073 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 19:13:45,266 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 19:13:45,271 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 19:16:56,301 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 19:16:56,301 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 19:33:34,646 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 19:33:34,647 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 19:58:29,934 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 19:58:29,936 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 21:06:12,059 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 21:06:12,068 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-09 23:07:03,064 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-09 23:07:03,067 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-10 00:00:55,658 WARN 34846 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-09-10 00:00:55,668 WARN 34846 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-09-10 00:00:56,871 INFO 34846 [egg-logrotator] start remove /Users/haha/Documents/react/react_blog2/service4/logs/service4 files: common-error.log.2022-07-09, common-error.log.2022-07-10, common-error.log.2022-07-11, common-error.log.2022-07-12, common-error.log.2022-07-13, common-error.log.2022-07-14, common-error.log.2022-07-15, common-error.log.2022-07-16, common-error.log.2022-07-17, common-error.log.2022-07-18, common-error.log.2022-07-19, common-error.log.2022-07-20, common-error.log.2022-07-21, common-error.log.2022-07-22, common-error.log.2022-07-23, common-error.log.2022-07-24, common-error.log.2022-07-25, common-error.log.2022-07-26, common-error.log.2022-07-27, common-error.log.2022-07-28, common-error.log.2022-07-29, common-error.log.2022-07-30, common-error.log.2022-07-31, common-error.log.2022-08-01, common-error.log.2022-08-02, common-error.log.2022-08-03, common-error.log.2022-08-04, common-error.log.2022-08-05, common-error.log.2022-08-06, common-error.log.2022-08-07, common-error.log.2022-08-08, egg-agent.log.2022-07-09, egg-agent.log.2022-07-10, egg-agent.log.2022-07-11, egg-agent.log.2022-07-12, egg-agent.log.2022-07-13, egg-agent.log.2022-07-14, egg-agent.log.2022-07-15, egg-agent.log.2022-07-16, egg-agent.log.2022-07-17, egg-agent.log.2022-07-18, egg-agent.log.2022-07-19, egg-agent.log.2022-07-20, egg-agent.log.2022-07-21, egg-agent.log.2022-07-22, egg-agent.log.2022-07-23, egg-agent.log.2022-07-24, egg-agent.log.2022-07-25, egg-agent.log.2022-07-26, egg-agent.log.2022-07-27, egg-agent.log.2022-07-28, egg-agent.log.2022-07-29, egg-agent.log.2022-07-30, egg-agent.log.2022-07-31, egg-agent.log.2022-08-01, egg-agent.log.2022-08-02, egg-agent.log.2022-08-03, egg-agent.log.2022-08-04, egg-agent.log.2022-08-05, egg-agent.log.2022-08-06, egg-agent.log.2022-08-07, egg-agent.log.2022-08-08, egg-schedule.log.2022-07-09, egg-schedule.log.2022-07-10, egg-schedule.log.2022-07-11, egg-schedule.log.2022-07-12, egg-schedule.log.2022-07-13, egg-schedule.log.2022-07-14, egg-schedule.log.2022-07-15, egg-schedule.log.2022-07-16, egg-schedule.log.2022-07-17, egg-schedule.log.2022-07-18, egg-schedule.log.2022-07-19, egg-schedule.log.2022-07-20, egg-schedule.log.2022-07-21, egg-schedule.log.2022-07-22, egg-schedule.log.2022-07-23, egg-schedule.log.2022-07-24, egg-schedule.log.2022-07-25, egg-schedule.log.2022-07-26, egg-schedule.log.2022-07-27, egg-schedule.log.2022-07-28, egg-schedule.log.2022-07-29, egg-schedule.log.2022-07-30, egg-schedule.log.2022-07-31, egg-schedule.log.2022-08-01, egg-schedule.log.2022-08-02, egg-schedule.log.2022-08-03, egg-schedule.log.2022-08-04, egg-schedule.log.2022-08-05, egg-schedule.log.2022-08-06, egg-schedule.log.2022-08-07, egg-schedule.log.2022-08-08, egg-web.log.2022-07-09, egg-web.log.2022-07-10, egg-web.log.2022-07-11, egg-web.log.2022-07-12, egg-web.log.2022-07-13, egg-web.log.2022-07-14, egg-web.log.2022-07-15, egg-web.log.2022-07-16, egg-web.log.2022-07-17, egg-web.log.2022-07-18, egg-web.log.2022-07-19, egg-web.log.2022-07-20, egg-web.log.2022-07-21, egg-web.log.2022-07-22, egg-web.log.2022-07-23, egg-web.log.2022-07-24, egg-web.log.2022-07-25, egg-web.log.2022-07-26, egg-web.log.2022-07-27, egg-web.log.2022-07-28, egg-web.log.2022-07-29, egg-web.log.2022-07-30, egg-web.log.2022-07-31, egg-web.log.2022-08-01, egg-web.log.2022-08-02, egg-web.log.2022-08-03, egg-web.log.2022-08-04, egg-web.log.2022-08-05, egg-web.log.2022-08-06, egg-web.log.2022-08-07, egg-web.log.2022-08-08, service4-web.log.2022-07-09, service4-web.log.2022-07-10, service4-web.log.2022-07-11, service4-web.log.2022-07-12, service4-web.log.2022-07-13, service4-web.log.2022-07-14, service4-web.log.2022-07-15, service4-web.log.2022-07-16, service4-web.log.2022-07-17, service4-web.log.2022-07-18, service4-web.log.2022-07-19, service4-web.log.2022-07-20, service4-web.log.2022-07-21, service4-web.log.2022-07-22, service4-web.log.2022-07-23, service4-web.log.2022-07-24, service4-web.log.2022-07-25, service4-web.log.2022-07-26, service4-web.log.2022-07-27, service4-web.log.2022-07-28, service4-web.log.2022-07-29, service4-web.log.2022-07-30, service4-web.log.2022-07-31, service4-web.log.2022-08-01, service4-web.log.2022-08-02, service4-web.log.2022-08-03, service4-web.log.2022-08-04, service4-web.log.2022-08-05, service4-web.log.2022-08-06, service4-web.log.2022-08-07, service4-web.log.2022-08-08
+2022-09-10 00:00:57,248 INFO 34846 [egg-logrotator] clean all log before 31 days
+2022-09-10 00:00:57,262 INFO 34846 [egg-logrotator] broadcast log-reload
+2022-09-10 00:00:57,262 INFO 34846 [egg-logrotator] rotate files success by DayRotator, files ["/Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log.2022-09-09","/Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log.2022-09-09","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log.2022-09-09","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log.2022-09-09","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log.2022-09-09"]

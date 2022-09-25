@@ -1,0 +1,51 @@
+2022-09-12 00:00:02,423 INFO 91539 [egg-logrotator] agent logger reload: got log-reload message
+2022-09-12 02:03:18,546 WARN 91539 [agent:development] reload worker because /Users/haha/Documents/react/react_blog2/service4/config/config.default.js change
+2022-09-12 02:03:18,306 INFO 91539 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/haha/Documents/react/react_blog2/service4/config/config.default.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13426345,"size":1658,"blocks":8,"atimeMs":1662973398258.625,"mtimeMs":1662973398200.062,"ctimeMs":1662973398200.062,"birthtimeMs":1656833008404.1074,"atime":"2022-09-12T09:03:18.259Z","mtime":"2022-09-12T09:03:18.200Z","ctime":"2022-09-12T09:03:18.200Z","birthtime":"2022-07-03T07:23:28.404Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-09-12 11:39:38,465 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 1233293ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-12 11:41:49,703 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 92234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-12 11:55:28,150 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 778035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-12 12:00:42,813 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 274173ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-12 13:32:34,560 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 411003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+
+2022-09-12 14:35:19,252 ERROR 91539 nodejs.ClusterClientNoResponseError: client no response in 3626223ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/haha/Documents/react/react_blog2/service4/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 91539
+hostname: hahas-MBP.lan
+

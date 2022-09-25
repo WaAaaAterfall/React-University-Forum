@@ -1,0 +1,261 @@
+2022-09-11 00:00:01,016 INFO 91542 [egg-logrotator] app logger reload: got log-reload message
+2022-09-11 04:30:00,315 INFO 91542 [-/127.0.0.1/-/7ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/service4"
+2022-09-11 04:30:00,329 INFO 91542 [-/127.0.0.1/-/22ms SCHEDULE /__schedule?path=/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-09-11 12:32:05,310 INFO 16189 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 12:32:05,340 INFO 16189 [egg-multipart] stream mode enable
+2022-09-11 12:32:05,341 INFO 16189 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 12:32:05,530 INFO 16189 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 12:32:05,532 INFO 16189 [egg-security] use methodnoallow middleware
+2022-09-11 12:32:05,533 INFO 16189 [egg-security] use noopen middleware
+2022-09-11 12:32:05,534 INFO 16189 [egg-security] use nosniff middleware
+2022-09-11 12:32:05,534 INFO 16189 [egg-security] use xssProtection middleware
+2022-09-11 12:32:05,535 INFO 16189 [egg-security] use xframe middleware
+2022-09-11 12:32:05,536 INFO 16189 [egg-security] use dta middleware
+2022-09-11 12:32:05,536 INFO 16189 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 12:32:05,551 INFO 16189 [egg:core] dump config after load, 6ms
+2022-09-11 12:32:05,573 INFO 16189 [egg-watcher:application] watcher start success
+2022-09-11 12:32:05,594 INFO 16189 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 12:32:05 GMT-0700 (Pacific Daylight Time)
+2022-09-11 12:32:05,608 INFO 16189 [egg:core] dump config after ready, 7ms
+2022-09-11 18:16:59,394 INFO 30312 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:16:59,428 INFO 30312 [egg-multipart] stream mode enable
+2022-09-11 18:16:59,429 INFO 30312 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:16:59,727 INFO 30312 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:16:59,732 INFO 30312 [egg-security] use methodnoallow middleware
+2022-09-11 18:16:59,733 INFO 30312 [egg-security] use noopen middleware
+2022-09-11 18:16:59,734 INFO 30312 [egg-security] use nosniff middleware
+2022-09-11 18:16:59,736 INFO 30312 [egg-security] use xssProtection middleware
+2022-09-11 18:16:59,737 INFO 30312 [egg-security] use xframe middleware
+2022-09-11 18:16:59,737 INFO 30312 [egg-security] use dta middleware
+2022-09-11 18:16:59,738 INFO 30312 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:16:59,763 INFO 30312 [egg:core] dump config after load, 9ms
+2022-09-11 18:16:59,803 INFO 30312 [egg-watcher:application] watcher start success
+2022-09-11 18:16:59,829 INFO 30312 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:16:59 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:16:59,845 INFO 30312 [egg:core] dump config after ready, 11ms
+2022-09-11 18:17:40,406 INFO 30355 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:17:40,444 INFO 30355 [egg-multipart] stream mode enable
+2022-09-11 18:17:40,445 INFO 30355 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:17:40,683 INFO 30355 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:17:40,686 INFO 30355 [egg-security] use methodnoallow middleware
+2022-09-11 18:17:40,687 INFO 30355 [egg-security] use noopen middleware
+2022-09-11 18:17:40,688 INFO 30355 [egg-security] use nosniff middleware
+2022-09-11 18:17:40,689 INFO 30355 [egg-security] use xssProtection middleware
+2022-09-11 18:17:40,690 INFO 30355 [egg-security] use xframe middleware
+2022-09-11 18:17:40,691 INFO 30355 [egg-security] use dta middleware
+2022-09-11 18:17:40,691 INFO 30355 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:17:40,708 INFO 30355 [egg:core] dump config after load, 6ms
+2022-09-11 18:17:40,729 INFO 30355 [egg-watcher:application] watcher start success
+2022-09-11 18:17:40,745 INFO 30355 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:17:40 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:17:40,754 INFO 30355 [egg:core] dump config after ready, 7ms
+2022-09-11 18:18:22,134 INFO 30396 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:18:22,200 INFO 30396 [egg-multipart] stream mode enable
+2022-09-11 18:18:22,201 INFO 30396 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:18:22,574 INFO 30396 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:18:22,578 INFO 30396 [egg-security] use methodnoallow middleware
+2022-09-11 18:18:22,580 INFO 30396 [egg-security] use noopen middleware
+2022-09-11 18:18:22,580 INFO 30396 [egg-security] use nosniff middleware
+2022-09-11 18:18:22,581 INFO 30396 [egg-security] use xssProtection middleware
+2022-09-11 18:18:22,582 INFO 30396 [egg-security] use xframe middleware
+2022-09-11 18:18:22,583 INFO 30396 [egg-security] use dta middleware
+2022-09-11 18:18:22,584 INFO 30396 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:18:22,611 INFO 30396 [egg:core] dump config after load, 8ms
+2022-09-11 18:18:22,646 INFO 30396 [egg-watcher:application] watcher start success
+2022-09-11 18:18:22,652 INFO 30396 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:18:22 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:18:22,660 INFO 30396 [egg:core] dump config after ready, 6ms
+2022-09-11 18:18:53,150 INFO 30455 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:18:53,196 INFO 30455 [egg-multipart] stream mode enable
+2022-09-11 18:18:53,197 INFO 30455 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:18:53,468 INFO 30455 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:18:53,471 INFO 30455 [egg-security] use methodnoallow middleware
+2022-09-11 18:18:53,472 INFO 30455 [egg-security] use noopen middleware
+2022-09-11 18:18:53,473 INFO 30455 [egg-security] use nosniff middleware
+2022-09-11 18:18:53,474 INFO 30455 [egg-security] use xssProtection middleware
+2022-09-11 18:18:53,476 INFO 30455 [egg-security] use xframe middleware
+2022-09-11 18:18:53,477 INFO 30455 [egg-security] use dta middleware
+2022-09-11 18:18:53,477 INFO 30455 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:18:53,503 INFO 30455 [egg:core] dump config after load, 10ms
+2022-09-11 18:18:53,552 INFO 30455 [egg-watcher:application] watcher start success
+2022-09-11 18:18:53,568 INFO 30455 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:18:53 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:18:53,585 INFO 30455 [egg:core] dump config after ready, 15ms
+2022-09-11 18:19:10,555 INFO 30481 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:19:10,589 INFO 30481 [egg-multipart] stream mode enable
+2022-09-11 18:19:10,589 INFO 30481 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:19:10,770 INFO 30481 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:19:10,773 INFO 30481 [egg-security] use methodnoallow middleware
+2022-09-11 18:19:10,773 INFO 30481 [egg-security] use noopen middleware
+2022-09-11 18:19:10,774 INFO 30481 [egg-security] use nosniff middleware
+2022-09-11 18:19:10,774 INFO 30481 [egg-security] use xssProtection middleware
+2022-09-11 18:19:10,775 INFO 30481 [egg-security] use xframe middleware
+2022-09-11 18:19:10,775 INFO 30481 [egg-security] use dta middleware
+2022-09-11 18:19:10,775 INFO 30481 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:19:10,788 INFO 30481 [egg:core] dump config after load, 4ms
+2022-09-11 18:19:10,805 INFO 30481 [egg-watcher:application] watcher start success
+2022-09-11 18:19:10,816 INFO 30481 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:19:10 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:19:10,823 INFO 30481 [egg:core] dump config after ready, 5ms
+2022-09-11 18:19:56,665 INFO 30525 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:19:56,694 INFO 30525 [egg-multipart] stream mode enable
+2022-09-11 18:19:56,694 INFO 30525 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:19:56,964 INFO 30525 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:19:56,967 INFO 30525 [egg-security] use methodnoallow middleware
+2022-09-11 18:19:56,968 INFO 30525 [egg-security] use noopen middleware
+2022-09-11 18:19:56,969 INFO 30525 [egg-security] use nosniff middleware
+2022-09-11 18:19:56,970 INFO 30525 [egg-security] use xssProtection middleware
+2022-09-11 18:19:56,971 INFO 30525 [egg-security] use xframe middleware
+2022-09-11 18:19:56,972 INFO 30525 [egg-security] use dta middleware
+2022-09-11 18:19:56,972 INFO 30525 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:19:56,989 INFO 30525 [egg:core] dump config after load, 6ms
+2022-09-11 18:19:57,013 INFO 30525 [egg-watcher:application] watcher start success
+2022-09-11 18:19:57,015 INFO 30525 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:19:57 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:19:57,023 INFO 30525 [egg:core] dump config after ready, 5ms
+2022-09-11 18:40:07,882 INFO 31355 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:40:07,937 INFO 31355 [egg-multipart] stream mode enable
+2022-09-11 18:40:07,939 INFO 31355 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:40:08,147 INFO 31355 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:40:08,150 INFO 31355 [egg-security] use methodnoallow middleware
+2022-09-11 18:40:08,150 INFO 31355 [egg-security] use noopen middleware
+2022-09-11 18:40:08,151 INFO 31355 [egg-security] use nosniff middleware
+2022-09-11 18:40:08,152 INFO 31355 [egg-security] use xssProtection middleware
+2022-09-11 18:40:08,152 INFO 31355 [egg-security] use xframe middleware
+2022-09-11 18:40:08,153 INFO 31355 [egg-security] use dta middleware
+2022-09-11 18:40:08,153 INFO 31355 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:40:08,169 INFO 31355 [egg:core] dump config after load, 6ms
+2022-09-11 18:40:08,189 INFO 31355 [egg-watcher:application] watcher start success
+2022-09-11 18:40:08,200 INFO 31355 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:40:08 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:40:08,208 INFO 31355 [egg:core] dump config after ready, 6ms
+2022-09-11 18:41:07,867 INFO 31432 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:41:07,955 INFO 31432 [egg-multipart] stream mode enable
+2022-09-11 18:41:07,955 INFO 31432 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:41:08,189 INFO 31432 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:41:08,192 INFO 31432 [egg-security] use methodnoallow middleware
+2022-09-11 18:41:08,193 INFO 31432 [egg-security] use noopen middleware
+2022-09-11 18:41:08,193 INFO 31432 [egg-security] use nosniff middleware
+2022-09-11 18:41:08,194 INFO 31432 [egg-security] use xssProtection middleware
+2022-09-11 18:41:08,195 INFO 31432 [egg-security] use xframe middleware
+2022-09-11 18:41:08,196 INFO 31432 [egg-security] use dta middleware
+2022-09-11 18:41:08,196 INFO 31432 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:41:08,212 INFO 31432 [egg:core] dump config after load, 5ms
+2022-09-11 18:41:08,232 INFO 31432 [egg-watcher:application] watcher start success
+2022-09-11 18:41:08,246 INFO 31432 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:41:08 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:41:08,255 INFO 31432 [egg:core] dump config after ready, 6ms
+2022-09-11 18:41:25,257 INFO 31457 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:41:25,295 INFO 31457 [egg-multipart] stream mode enable
+2022-09-11 18:41:25,296 INFO 31457 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:41:25,482 INFO 31457 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:41:25,490 INFO 31457 [egg-security] use methodnoallow middleware
+2022-09-11 18:41:25,491 INFO 31457 [egg-security] use noopen middleware
+2022-09-11 18:41:25,493 INFO 31457 [egg-security] use nosniff middleware
+2022-09-11 18:41:25,494 INFO 31457 [egg-security] use xssProtection middleware
+2022-09-11 18:41:25,495 INFO 31457 [egg-security] use xframe middleware
+2022-09-11 18:41:25,496 INFO 31457 [egg-security] use dta middleware
+2022-09-11 18:41:25,496 INFO 31457 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:41:25,517 INFO 31457 [egg:core] dump config after load, 7ms
+2022-09-11 18:41:25,570 INFO 31457 [egg-watcher:application] watcher start success
+2022-09-11 18:41:25,602 INFO 31457 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:41:25 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:41:25,641 INFO 31457 [egg:core] dump config after ready, 34ms
+2022-09-11 18:41:52,481 INFO 31483 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:41:52,520 INFO 31483 [egg-multipart] stream mode enable
+2022-09-11 18:41:52,521 INFO 31483 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:41:52,738 INFO 31483 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:41:52,741 INFO 31483 [egg-security] use methodnoallow middleware
+2022-09-11 18:41:52,742 INFO 31483 [egg-security] use noopen middleware
+2022-09-11 18:41:52,743 INFO 31483 [egg-security] use nosniff middleware
+2022-09-11 18:41:52,744 INFO 31483 [egg-security] use xssProtection middleware
+2022-09-11 18:41:52,745 INFO 31483 [egg-security] use xframe middleware
+2022-09-11 18:41:52,746 INFO 31483 [egg-security] use dta middleware
+2022-09-11 18:41:52,746 INFO 31483 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:41:52,766 INFO 31483 [egg:core] dump config after load, 7ms
+2022-09-11 18:41:52,789 INFO 31483 [egg-watcher:application] watcher start success
+2022-09-11 18:41:52,798 INFO 31483 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:41:52 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:41:52,807 INFO 31483 [egg:core] dump config after ready, 6ms
+2022-09-11 18:42:02,771 INFO 31494 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:42:02,811 INFO 31494 [egg-multipart] stream mode enable
+2022-09-11 18:42:02,811 INFO 31494 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:42:02,976 INFO 31494 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:42:02,979 INFO 31494 [egg-security] use methodnoallow middleware
+2022-09-11 18:42:02,979 INFO 31494 [egg-security] use noopen middleware
+2022-09-11 18:42:02,980 INFO 31494 [egg-security] use nosniff middleware
+2022-09-11 18:42:02,981 INFO 31494 [egg-security] use xssProtection middleware
+2022-09-11 18:42:02,981 INFO 31494 [egg-security] use xframe middleware
+2022-09-11 18:42:02,982 INFO 31494 [egg-security] use dta middleware
+2022-09-11 18:42:02,982 INFO 31494 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:42:02,998 INFO 31494 [egg:core] dump config after load, 6ms
+2022-09-11 18:42:03,019 INFO 31494 [egg-watcher:application] watcher start success
+2022-09-11 18:42:03,030 INFO 31494 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:42:03 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:42:03,038 INFO 31494 [egg:core] dump config after ready, 6ms
+2022-09-11 18:44:31,354 INFO 31614 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:44:31,391 INFO 31614 [egg-multipart] stream mode enable
+2022-09-11 18:44:31,391 INFO 31614 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:44:31,569 INFO 31614 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:44:31,571 INFO 31614 [egg-security] use methodnoallow middleware
+2022-09-11 18:44:31,572 INFO 31614 [egg-security] use noopen middleware
+2022-09-11 18:44:31,573 INFO 31614 [egg-security] use nosniff middleware
+2022-09-11 18:44:31,573 INFO 31614 [egg-security] use xssProtection middleware
+2022-09-11 18:44:31,574 INFO 31614 [egg-security] use xframe middleware
+2022-09-11 18:44:31,574 INFO 31614 [egg-security] use dta middleware
+2022-09-11 18:44:31,575 INFO 31614 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:44:31,590 INFO 31614 [egg:core] dump config after load, 5ms
+2022-09-11 18:44:31,610 INFO 31614 [egg-watcher:application] watcher start success
+2022-09-11 18:44:31,629 INFO 31614 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:44:31 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:44:31,639 INFO 31614 [egg:core] dump config after ready, 6ms
+2022-09-11 18:44:55,434 INFO 31650 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:44:55,607 INFO 31650 [egg-multipart] stream mode enable
+2022-09-11 18:44:55,608 INFO 31650 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:44:56,008 INFO 31650 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:44:56,015 INFO 31650 [egg-security] use methodnoallow middleware
+2022-09-11 18:44:56,018 INFO 31650 [egg-security] use noopen middleware
+2022-09-11 18:44:56,028 INFO 31650 [egg-security] use nosniff middleware
+2022-09-11 18:44:56,032 INFO 31650 [egg-security] use xssProtection middleware
+2022-09-11 18:44:56,036 INFO 31650 [egg-security] use xframe middleware
+2022-09-11 18:44:56,050 INFO 31650 [egg-security] use dta middleware
+2022-09-11 18:44:56,050 INFO 31650 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:44:56,091 INFO 31650 [egg:core] dump config after load, 18ms
+2022-09-11 18:44:56,137 INFO 31650 [egg-watcher:application] watcher start success
+2022-09-11 18:44:56,146 INFO 31650 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:44:56 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:44:56,160 INFO 31650 [egg:core] dump config after ready, 10ms
+2022-09-11 18:46:50,369 INFO 31732 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:46:50,405 INFO 31732 [egg-multipart] stream mode enable
+2022-09-11 18:46:50,406 INFO 31732 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:46:50,656 INFO 31732 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:46:50,660 INFO 31732 [egg-security] use methodnoallow middleware
+2022-09-11 18:46:50,664 INFO 31732 [egg-security] use noopen middleware
+2022-09-11 18:46:50,667 INFO 31732 [egg-security] use nosniff middleware
+2022-09-11 18:46:50,670 INFO 31732 [egg-security] use xssProtection middleware
+2022-09-11 18:46:50,672 INFO 31732 [egg-security] use xframe middleware
+2022-09-11 18:46:50,673 INFO 31732 [egg-security] use dta middleware
+2022-09-11 18:46:50,673 INFO 31732 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:46:50,697 INFO 31732 [egg:core] dump config after load, 5ms
+2022-09-11 18:46:50,725 INFO 31732 [egg-watcher:application] watcher start success
+2022-09-11 18:46:50,742 INFO 31732 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:46:50 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:46:50,762 INFO 31732 [egg:core] dump config after ready, 16ms
+2022-09-11 18:47:31,499 INFO 31777 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:47:31,562 INFO 31777 [egg-multipart] stream mode enable
+2022-09-11 18:47:31,562 INFO 31777 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:47:31,775 INFO 31777 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:47:31,780 INFO 31777 [egg-security] use methodnoallow middleware
+2022-09-11 18:47:31,783 INFO 31777 [egg-security] use noopen middleware
+2022-09-11 18:47:31,785 INFO 31777 [egg-security] use nosniff middleware
+2022-09-11 18:47:31,785 INFO 31777 [egg-security] use xssProtection middleware
+2022-09-11 18:47:31,787 INFO 31777 [egg-security] use xframe middleware
+2022-09-11 18:47:31,789 INFO 31777 [egg-security] use dta middleware
+2022-09-11 18:47:31,789 INFO 31777 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:47:31,821 INFO 31777 [egg:core] dump config after load, 11ms
+2022-09-11 18:47:31,854 INFO 31777 [egg-watcher:application] watcher start success
+2022-09-11 18:47:31,860 INFO 31777 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:47:31 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:47:31,869 INFO 31777 [egg:core] dump config after ready, 6ms
+2022-09-11 18:47:34,604 INFO 31788 [egg:logger] init all loggers with options: {"dir":"/Users/haha/Documents/react/react_blog2/service4/logs/service4","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service4-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-09-11 18:47:34,664 INFO 31788 [egg-multipart] stream mode enable
+2022-09-11 18:47:34,664 INFO 31788 [egg-mysql] connecting root@localhost:8889/react_blog
+2022-09-11 18:47:34,831 INFO 31788 [egg-static] starting static serve /public/ -> /Users/haha/Documents/react/react_blog2/service4/app/public
+2022-09-11 18:47:34,835 INFO 31788 [egg-security] use methodnoallow middleware
+2022-09-11 18:47:34,836 INFO 31788 [egg-security] use noopen middleware
+2022-09-11 18:47:34,836 INFO 31788 [egg-security] use nosniff middleware
+2022-09-11 18:47:34,837 INFO 31788 [egg-security] use xssProtection middleware
+2022-09-11 18:47:34,838 INFO 31788 [egg-security] use xframe middleware
+2022-09-11 18:47:34,838 INFO 31788 [egg-security] use dta middleware
+2022-09-11 18:47:34,839 INFO 31788 [egg-security] compose 6 middlewares into one security middleware
+2022-09-11 18:47:34,854 INFO 31788 [egg:core] dump config after load, 5ms
+2022-09-11 18:47:34,876 INFO 31788 [egg-watcher:application] watcher start success
+2022-09-11 18:47:34,884 INFO 31788 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 11 2022 18:47:34 GMT-0700 (Pacific Daylight Time)
+2022-09-11 18:47:34,894 INFO 31788 [egg:core] dump config after ready, 7ms
+2022-09-12 00:00:01,673 INFO 31788 [egg-logrotator] clean all log before 31 days
+2022-09-12 00:00:02,366 INFO 31788 [egg-logrotator] broadcast log-reload
+2022-09-12 00:00:02,367 INFO 31788 [egg-logrotator] rotate files success by DayRotator, files ["/Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/common-error.log.2022-09-11","/Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/service4-web.log.2022-09-11","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-web.log.2022-09-11","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-schedule.log.2022-09-11","/Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log -> /Users/haha/Documents/react/react_blog2/service4/logs/service4/egg-agent.log.2022-09-11"]
